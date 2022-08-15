@@ -37,7 +37,7 @@ body{
 .logo{
     top: 0px;
     position: flex;
-    padding-top: 1vh;
+    padding-top: 200px;
     object-fit: contain;
     width: 20vw;
     height: 15vh;
@@ -53,8 +53,8 @@ form{
     height: 20vh;
 }
 input{
-    width: 25vw;
-    height: 2.5vh;
+    width: 1800px;
+    height: 100px;
     border-width: 5px;
     border-color: black;
     font-size: 60px;
@@ -92,7 +92,7 @@ button:hover{
 }
 .locationInfo{
     width: 90vw;
-    height: auto;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
