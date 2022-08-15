@@ -266,20 +266,20 @@ list{
     }
     .locationInfo{
         width: 90vw;
-        height: auto;
+        height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
         margin: auto;
-        padding-top: 20px;
-        padding-bottom: 5px;   
+        padding-top: 10px;
+        padding-bottom: 40px;   
     }
     .listLocation{
         display: flex;
         list-style: none;
         width: 90vw;
-        font-size: 14px;
+        font-size: 13px;
         color: white;
         flex-direction: row;
         justify-content: left;
@@ -311,6 +311,7 @@ list{
         font-weight: bold;
     }
     .cardBox{
+       padding-top: 0%;
        display: flex;
        flex-direction: column;
        flex-wrap: wrap;
@@ -321,7 +322,7 @@ list{
        height: auto;
     }
     .cardContainer{
-        width: 70vw;
+        width: 215px;
         background-color: rgba(93, 90, 90, 0.833);
         border-top-left-radius: 20px;
         border-top-right-radius: 50px;
@@ -338,7 +339,7 @@ list{
     }
     .cards img{
         
-        width: 64.5vw;
+        width: 190px;
         border-top-left-radius: 20px;
         border-top-right-radius: 50px;
     }
@@ -353,16 +354,23 @@ list{
         padding-right: 10px;
         float: right;
     }
+    .status{
+        padding-left: 25px;
+        font-size: 17px;
+    }
     .nameResident{
         font-size: 20px;
     }
     .cardList{
         list-style-type: none;
+        font-size: 20px;
     }
     .ulList{
         list-style-type: none;
+        font-size: 17px;
     }
     list{
         list-style-type: none;
+        font-size: 20px;
     }
 }
