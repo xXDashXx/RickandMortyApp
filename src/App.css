@@ -92,14 +92,14 @@ button:hover{
 }
 .locationInfo{
     width: 90vw;
-    height: 500px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     margin: auto;
-    padding-top: 90px;
-    padding-bottom: 90px;   
+    padding-top: 190px;
+    padding-bottom: 190px;   
 }
 .listLocation{
     display: flex;
