@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    top: 0px;
+    margin: 0px;
+    left: 0px;
+    margin-right: 0px;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(93, 4, 93);
+    padding-bottom: 200px;
+}
+.App{
+    min-width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    aspect-ratio: 2.0;
+    height: min-content;
+    background-image: url('./assets/img1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    column-gap: 4vw; 
+    padding-top: 3vh;
+
+}
+.logo{
+    top: 0px;
+    position: flex;
+    padding-top: 1vh;
+    object-fit: contain;
+    width: 20vw;
+    height: 15vh;
+    transform: rotate(-35deg);
+    transition: 0.3s all ease;
+}
+.logo:hover{
+    transform: rotate(0deg);
+    transition: 1s all ease; 
+}
+form{
+    width: 40vw;
+    height: 20vh;
+}
+input{
+    width: 25vw;
+    height: 2.5vh;
+    border-width: 5px;
+    border-color: black;
+    font-size: 60px;
+}
+button{
+    border: none;
+    column-gap: 50px;
+    height: 3.5vh;
+    width: 56px;
+    text-align: center;
+    font-size: 90px ;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    transform: translate(15px, 15px);
+    transition: 0.3s all ease;
+}
+button:hover{
+    color: green;
+    transition: 1.5s all ease;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    transition: 1s all ease;
+}
+.locationBox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(93, 90, 90, 0.833);
+}
+.locationInfo{
+    width: 90vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    padding-top: 90px;
+    padding-bottom: 90px;   
+}
+.listLocation{
+    display: flex;
+    list-style: none;
+    width: 90vw;
+    font-size: 80px;
+    color: white;
+    flex-direction: row;
+    justify-content: left;
+    column-gap: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-wrap: wrap;        
+}
+.titleLocation{
+    font-size: 76px;
+}
+.listLocation li{
+    display: flexbox;
+    text-align: center;
+    width: 17em;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+    float: left; 
+} 
+.listLocation li span{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.titleLocation{
+    font-weight: bold;
+}
+.cardBox{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-content: center;
+   justify-content: center;
+   color: white;
+   padding-top: 100px;
+   padding-left: 40px;
+   row-gap: 80px;
+   column-gap: 60px;
+   height: auto;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 740px;
+    background-color: rgba(93, 90, 90, 0.833);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    height: auto;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.cards{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+.cards img{
+    width: 10vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    width: 5em;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 100px; 
+    padding-right: 10px;
+    text-align: justify;
+}
+.nameResident{
+    font-size: 100px;
+}
+.status{
+    font-size: 60px;
+}
+.cardList{
+    list-style-type: none;
+}
+.ulList{
+    list-style-type: none;
+    font-size: 60px;
+}
+list{
+    list-style-type: none;
+}
+@media only screen and ( max-width: 500px){
+    body{
+        background-color: rgb(93, 4, 93);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+        background-size: cover;
+        aspect-ratio: 1.6;
+        background-image: url('./assets/img1.jpg');
+        column-gap: 3vw; 
+        padding-top: 0.5vh;   
+    }
+    .logo{
+        padding-top: 0.5vh;
+        object-fit: contain;
+        width: 40vw;
+        height: 10vh;
+    }
+    form{
+        padding-top: 1px;
+        display: flex;
+        justify-content: center;
+        width: 45vw;
+        height: 5vh;
+    }
+    input{
+        justify-content: center;
+        padding: 1.5vh;
+        width: 50vw;
+        height: 0vh;
+        border-width: 2px; 
+        transform: translate(-5vh, 21vw);         
+    }
+    button{
+        border: none;
+        column-gap: 50px;
+        height: 3.5vh;
+        width: 56px;
+        text-align: center;
+        font-size: 30px ;
+        font-weight: 900;
+        color: green;
+        background-color: transparent;
+        transform: translate(-4.5vh, 20.3vw);
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+        justify-content: center;
+        align-content: center;
+    }
+    .locationBox{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: rgba(93, 90, 90, 0.833);
+    }
+    .locationInfo{
+        width: 90vw;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 5px;   
+    }
+    .listLocation{
+        display: flex;
+        list-style: none;
+        width: 90vw;
+        font-size: 14px;
+        color: white;
+        flex-direction: row;
+        justify-content: left;
+        column-gap: 32px;
+        padding-left: 0px;
+        padding-right: 0px;
+        flex-wrap: wrap;        
+    }
+    .titleLocation{
+        font-size: 16px;
+    }
+    .listLocation li{
+        display: flexbox;
+        text-align: center;
+        width: 4.5em;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 10px; 
+        float: left; 
+    } 
+    .listLocation li span{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+    .titleLocation{
+        font-weight: bold;
+    }
+    .cardBox{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-content: center;
+       justify-content: center;
+       color: white;
+       row-gap: 20px;
+       height: auto;
+    }
+    .cardContainer{
+        width: 70vw;
+        background-color: rgba(93, 90, 90, 0.833);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 50px;
+        height: auto;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .cards{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .cards img{
+        
+        width: 64.5vw;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 50px;
+    }
+    .circle{
+        display: flex;
+        justify-content: center;
+        width: 4.5em;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-bottom: 50px; 
+        padding-right: 10px;
+        float: right;
+    }
+    .nameResident{
+        font-size: 20px;
+    }
+    .cardList{
+        list-style-type: none;
+    }
+    .ulList{
+        list-style-type: none;
+    }
+    list{
+        list-style-type: none;
+    }
+}
