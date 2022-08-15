@@ -94,7 +94,7 @@ button:hover{
     width: 90vw;
     height: 500px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     margin: auto;
