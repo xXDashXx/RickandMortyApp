@@ -58,7 +58,7 @@ function App() {
       <div className='header'>
         <img className='logo' src={logo} alt="" />
         <form onSubmit={handleSubmit}>
-          <input type="hidden-text" name="" id="search" />
+          <input placeholder='type an id from 1 to 126 for a location' type="text" name="" id="search" />
           <button>Go</button>
         </form>
       </div>
