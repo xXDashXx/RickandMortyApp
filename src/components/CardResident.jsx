@@ -6,7 +6,7 @@ const CardResident = ({url}) => {
   console.log(resident)
   return (
     <div className='cardContainer'>
-      <article className='cards'>
+      <div className='cards'>
         <header>
           <img src= {resident?.image} alt= {`image of ${resident?.name}`} />
           <div>
@@ -25,7 +25,7 @@ const CardResident = ({url}) => {
               <span> {resident?.episode.length} </span></li>
           </ul>
         </div>
-      </article>
+      </div>
     </div>
   )
 }
