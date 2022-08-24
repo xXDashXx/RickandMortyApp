@@ -233,6 +233,7 @@ list{
         row-gap: 4vh;
         column-gap: 6vw;
         height: auto;
+        margin: 0 auto;
      }
      .cardContainer{
          display: flex;
