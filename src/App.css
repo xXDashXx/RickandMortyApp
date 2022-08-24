@@ -220,6 +220,77 @@ button:hover{
 list{
     list-style-type: none;
 }
+@media only screen and ( max-width: 1024px){
+    .cardBox{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        color: white;
+        padding-top: 10px;
+        padding-left: 0px;
+        row-gap: 4vh;
+        column-gap: 6vw;
+        height: auto;
+     }
+     .cardContainer{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+         justify-content: center;
+         min-width: 215px;
+         background-color: rgba(93, 90, 90, 0.833);
+         border-top-left-radius: 20px;
+         border-top-right-radius: 50px;
+         height: auto;
+         padding-top: 5px;
+         padding-bottom: 10px;
+     }
+     .cards{
+         max-width: 200px;
+         height: auto;
+         display: flex;
+         flex-direction: column;
+     }
+     .cards img{
+         display: block;
+         max-width: 100%;
+         height: auto;
+         /*width: 15vw;*/
+         border-top-left-radius: 20px;
+         border-top-right-radius: 50px;
+     }
+     .circle{
+         display: flex;
+         justify-content: center;
+         width: 6em;
+         flex-direction: column;
+         justify-content: center;
+         flex-wrap: wrap;
+         padding-bottom: 10px; 
+         padding-right: 10px;
+         text-align: justify;
+    }
+    .status{
+        padding-left: 25px;
+        font-size: 15px;
+    }
+    .nameResident{
+        font-size: 17px;
+    }
+    .cardList{
+        list-style-type: none;
+        font-size: 15px;
+    }
+    .ulList{
+        list-style-type: none;
+        font-size: 17px;
+    }
+    list{
+        list-style-type: none;
+    } 
+}
 @media only screen and ( max-width: 600px){
     body{
         background-color: rgb(93, 4, 93);
